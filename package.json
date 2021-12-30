@@ -1,0 +1,27 @@
+{
+  "name": "quiz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "NODE_ENV=dev sls offline --stage local --host localhost",
+    "start": "NODE_ENV=production sls offline"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.722.0",
+    "aws-serverless-express": "^3.3.8",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "next": "9.5.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-sketch-canvas": "^5.3.1",
+    "serverless-apigw-binary": "^0.4.4"
+  },
+  "devDependencies": {
+    "serverless-offline": "5.12.1"
+  }
+}
